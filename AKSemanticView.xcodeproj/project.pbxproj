@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87F7F59215604E8500D72D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F59115604E8500D72D9E /* UIKit.framework */; };
+		87F7F59415604E8500D72D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F59315604E8500D72D9E /* Foundation.framework */; };
+		87F7F59615604E8500D72D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F59515604E8500D72D9E /* CoreGraphics.framework */; };
+		87F7F5B315604E8500D72D9E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F5B215604E8500D72D9E /* SenTestingKit.framework */; };
+		87F7F5B415604E8500D72D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F59115604E8500D72D9E /* UIKit.framework */; };
+		87F7F5B515604E8500D72D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7F59315604E8500D72D9E /* Foundation.framework */; };
+		87F7F5BD15604E8500D72D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87F7F5BB15604E8500D72D9E /* InfoPlist.strings */; };
+		87F7F5C015604E8500D72D9E /* AKSemanticViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7F5BF15604E8500D72D9E /* AKSemanticViewTests.m */; };
+		87F7F5D815604EC900D72D9E /* AKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7F5CB15604EC900D72D9E /* AKAppDelegate.m */; };
+		87F7F5E21560513800D72D9E /* AKSemanticView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F7F5DF1560513800D72D9E /* AKSemanticView-Info.plist */; };
+		87F7F5E31560513800D72D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7F5E11560513800D72D9E /* main.m */; };
+		87F7F5E61560514100D72D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87F7F5E41560514100D72D9E /* InfoPlist.strings */; };
+		87F7F5EE1560526F00D72D9E /* AKSemanticViewExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7F5ED1560526F00D72D9E /* AKSemanticViewExampleViewController.m */; };
+		87F7F5F51560530700D72D9E /* UIView+Semantics.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7F5F41560530700D72D9E /* UIView+Semantics.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87F7F5B615604E8500D72D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F7F58415604E8500D72D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F7F58C15604E8500D72D9E;
+			remoteInfo = AKSemanticView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87F7F58D15604E8500D72D9E /* AKSemanticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSemanticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F7F59115604E8500D72D9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87F7F59315604E8500D72D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87F7F59515604E8500D72D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87F7F5B115604E8500D72D9E /* AKSemanticViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKSemanticViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F7F5B215604E8500D72D9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		87F7F5BA15604E8500D72D9E /* AKSemanticViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AKSemanticViewTests-Info.plist"; sourceTree = "<group>"; };
+		87F7F5BC15604E8500D72D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87F7F5BE15604E8500D72D9E /* AKSemanticViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKSemanticViewTests.h; sourceTree = "<group>"; };
+		87F7F5BF15604E8500D72D9E /* AKSemanticViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKSemanticViewTests.m; sourceTree = "<group>"; };
+		87F7F5CA15604EC900D72D9E /* AKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAppDelegate.h; sourceTree = "<group>"; };
+		87F7F5CB15604EC900D72D9E /* AKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAppDelegate.m; sourceTree = "<group>"; };
+		87F7F5DF1560513800D72D9E /* AKSemanticView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AKSemanticView-Info.plist"; sourceTree = "<group>"; };
+		87F7F5E01560513800D72D9E /* AKSemanticView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKSemanticView-Prefix.pch"; sourceTree = "<group>"; };
+		87F7F5E11560513800D72D9E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87F7F5E51560514100D72D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87F7F5EC1560526F00D72D9E /* AKSemanticViewExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKSemanticViewExampleViewController.h; sourceTree = "<group>"; };
+		87F7F5ED1560526F00D72D9E /* AKSemanticViewExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKSemanticViewExampleViewController.m; sourceTree = "<group>"; };
+		87F7F5F31560530700D72D9E /* UIView+Semantics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Semantics.h"; sourceTree = "<group>"; };
+		87F7F5F41560530700D72D9E /* UIView+Semantics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Semantics.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F7F58A15604E8500D72D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7F59215604E8500D72D9E /* UIKit.framework in Frameworks */,
+				87F7F59415604E8500D72D9E /* Foundation.framework in Frameworks */,
+				87F7F59615604E8500D72D9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7F5AD15604E8500D72D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7F5B315604E8500D72D9E /* SenTestingKit.framework in Frameworks */,
+				87F7F5B415604E8500D72D9E /* UIKit.framework in Frameworks */,
+				87F7F5B515604E8500D72D9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F7F58215604E8500D72D9E = {
+			isa = PBXGroup;
+			children = (
+				87F7F59715604E8500D72D9E /* AKSemanticView */,
+				87F7F5B815604E8500D72D9E /* AKSemanticViewTests */,
+				87F7F59015604E8500D72D9E /* Frameworks */,
+				87F7F58E15604E8500D72D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87F7F58E15604E8500D72D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F58D15604E8500D72D9E /* AKSemanticView.app */,
+				87F7F5B115604E8500D72D9E /* AKSemanticViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87F7F59015604E8500D72D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F59115604E8500D72D9E /* UIKit.framework */,
+				87F7F59315604E8500D72D9E /* Foundation.framework */,
+				87F7F59515604E8500D72D9E /* CoreGraphics.framework */,
+				87F7F5B215604E8500D72D9E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87F7F59715604E8500D72D9E /* AKSemanticView */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5C915604EC900D72D9E /* example */,
+				87F7F5D715604EC900D72D9E /* src */,
+				87F7F59815604E8500D72D9E /* Supporting Files */,
+			);
+			path = AKSemanticView;
+			sourceTree = "<group>";
+		};
+		87F7F59815604E8500D72D9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5E41560514100D72D9E /* InfoPlist.strings */,
+				87F7F5DF1560513800D72D9E /* AKSemanticView-Info.plist */,
+				87F7F5E01560513800D72D9E /* AKSemanticView-Prefix.pch */,
+				87F7F5E11560513800D72D9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87F7F5B815604E8500D72D9E /* AKSemanticViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5BE15604E8500D72D9E /* AKSemanticViewTests.h */,
+				87F7F5BF15604E8500D72D9E /* AKSemanticViewTests.m */,
+				87F7F5B915604E8500D72D9E /* Supporting Files */,
+			);
+			path = AKSemanticViewTests;
+			sourceTree = "<group>";
+		};
+		87F7F5B915604E8500D72D9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5BA15604E8500D72D9E /* AKSemanticViewTests-Info.plist */,
+				87F7F5BB15604E8500D72D9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87F7F5C915604EC900D72D9E /* example */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5E7156051E200D72D9E /* Classes */,
+				87F7F5CA15604EC900D72D9E /* AKAppDelegate.h */,
+				87F7F5CB15604EC900D72D9E /* AKAppDelegate.m */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		87F7F5D715604EC900D72D9E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5F31560530700D72D9E /* UIView+Semantics.h */,
+				87F7F5F41560530700D72D9E /* UIView+Semantics.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		87F7F5E7156051E200D72D9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5E8156051E200D72D9E /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		87F7F5E8156051E200D72D9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87F7F5EC1560526F00D72D9E /* AKSemanticViewExampleViewController.h */,
+				87F7F5ED1560526F00D72D9E /* AKSemanticViewExampleViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F7F58C15604E8500D72D9E /* AKSemanticView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F7F5C315604E8500D72D9E /* Build configuration list for PBXNativeTarget "AKSemanticView" */;
+			buildPhases = (
+				87F7F58915604E8500D72D9E /* Sources */,
+				87F7F58A15604E8500D72D9E /* Frameworks */,
+				87F7F58B15604E8500D72D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKSemanticView;
+			productName = AKSemanticView;
+			productReference = 87F7F58D15604E8500D72D9E /* AKSemanticView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87F7F5B015604E8500D72D9E /* AKSemanticViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F7F5C615604E8500D72D9E /* Build configuration list for PBXNativeTarget "AKSemanticViewTests" */;
+			buildPhases = (
+				87F7F5AC15604E8500D72D9E /* Sources */,
+				87F7F5AD15604E8500D72D9E /* Frameworks */,
+				87F7F5AE15604E8500D72D9E /* Resources */,
+				87F7F5AF15604E8500D72D9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F7F5B715604E8500D72D9E /* PBXTargetDependency */,
+			);
+			name = AKSemanticViewTests;
+			productName = AKSemanticViewTests;
+			productReference = 87F7F5B115604E8500D72D9E /* AKSemanticViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87F7F58415604E8500D72D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "appRenaissance, LLC";
+			};
+			buildConfigurationList = 87F7F58715604E8500D72D9E /* Build configuration list for PBXProject "AKSemanticView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87F7F58215604E8500D72D9E;
+			productRefGroup = 87F7F58E15604E8500D72D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F7F58C15604E8500D72D9E /* AKSemanticView */,
+				87F7F5B015604E8500D72D9E /* AKSemanticViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F7F58B15604E8500D72D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7F5E21560513800D72D9E /* AKSemanticView-Info.plist in Resources */,
+				87F7F5E61560514100D72D9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7F5AE15604E8500D72D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7F5BD15604E8500D72D9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87F7F5AF15604E8500D72D9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F7F58915604E8500D72D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7F5D815604EC900D72D9E /* AKAppDelegate.m in Sources */,
+				87F7F5E31560513800D72D9E /* main.m in Sources */,
+				87F7F5EE1560526F00D72D9E /* AKSemanticViewExampleViewController.m in Sources */,
+				87F7F5F51560530700D72D9E /* UIView+Semantics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7F5AC15604E8500D72D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7F5C015604E8500D72D9E /* AKSemanticViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87F7F5B715604E8500D72D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F7F58C15604E8500D72D9E /* AKSemanticView */;
+			targetProxy = 87F7F5B615604E8500D72D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87F7F5BB15604E8500D72D9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F7F5BC15604E8500D72D9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87F7F5E41560514100D72D9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F7F5E51560514100D72D9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87F7F5C115604E8500D72D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F7F5C215604E8500D72D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F7F5C415604E8500D72D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSemanticView/AKSemanticView-Prefix.pch";
+				INFOPLIST_FILE = "AKSemanticView/AKSemanticView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87F7F5C515604E8500D72D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSemanticView/AKSemanticView-Prefix.pch";
+				INFOPLIST_FILE = "AKSemanticView/AKSemanticView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87F7F5C715604E8500D72D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AKSemanticView.app/AKSemanticView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSemanticView/AKSemanticView-Prefix.pch";
+				INFOPLIST_FILE = "AKSemanticViewTests/AKSemanticViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		87F7F5C815604E8500D72D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AKSemanticView.app/AKSemanticView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AKSemanticView/AKSemanticView-Prefix.pch";
+				INFOPLIST_FILE = "AKSemanticViewTests/AKSemanticViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F7F58715604E8500D72D9E /* Build configuration list for PBXProject "AKSemanticView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7F5C115604E8500D72D9E /* Debug */,
+				87F7F5C215604E8500D72D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F7F5C315604E8500D72D9E /* Build configuration list for PBXNativeTarget "AKSemanticView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7F5C415604E8500D72D9E /* Debug */,
+				87F7F5C515604E8500D72D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F7F5C615604E8500D72D9E /* Build configuration list for PBXNativeTarget "AKSemanticViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7F5C715604E8500D72D9E /* Debug */,
+				87F7F5C815604E8500D72D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87F7F58415604E8500D72D9E /* Project object */;
+}
