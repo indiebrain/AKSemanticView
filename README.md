@@ -1,5 +1,5 @@
 # AKSemanticView
-A UIView category aimed at referencing common attributes a little less robotically.
+A UIView category aimed at referencing common attributes of views less verbose; e.g. view.top, view.bottom, view.left, view.right, view.width, view.height.
 
 ## Installation
 
