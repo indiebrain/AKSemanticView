@@ -9,7 +9,11 @@ A UIView category aimed at referencing common attributes a little less robotical
 1. Include the UIView+Semantic.h file where you would like to use its convenience methods. Alternatively, you can add the import line to your project's .pch  to get access to the category methods on UIView objects throughout your project.
 
 ### CocoaPods
-Shortly, I intend to create a podspec to include this category in your project through the [ccoapods](http://cocoapods.org/) dependency management system. More on this in a coming push.
+Simply declare AKSemanticView as a dependency in your project's Podfile
+
+`...
+dependency 'AKSemanticView'
+...`
 
 ### Examples
 This repository contains a functioning example of an iOS project using the UIView+Semantic category to layout its views. The source for the example view controller resides in the `AKSemanticView/example` directory.
